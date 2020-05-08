@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hospital WebStorage Database</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+ </head>
+<body>
+   <div class="container">
+  <h1>Welcome To KenzyMax Hospital Offline Database</h1>
+
+  <div class="form">
+ 
+  	    
+  	    <fieldset>
+  	    	<legend>Your Personal Details</legend>
+  	    	<label for="name">Patience Name</label>
+  	    	<input type="text" id="name" placeholder="Enter your name">
+  	    	<label for="bthdate">Date Of Birth</label>
+  	    	<input type="text" id="bthdate" placeholder="Enter your date of Birth (dd/MM/year)">
+            
+  	    </fieldset>
+
+      <fieldset>
+  	    	<legend>Hospital Details</legend>
+  	    	<label for="Hosname">Hospital Name</label>
+  	    	<input type="text" id="Hosname" placeholder="Enter your hospital name">
+  	    	<label for="Admdate">Admitted Date</label>
+  	    	<input type="date" id="Admdate" placeholder="Enter your date of Birth (dd/M/y)">
+  	    	<label for="cardNo">Hospital Card Number</label>
+  	    	<input type="text" id="cardNo" placeholder="Enter your hospital card number">
+  	    	<label for="fee">Charged Fee</label>
+  	    	<input type="text" id="fee" placeholder="Enter your hospital charged fee">
+
+  	   </fieldset>
+
+  	    <button id="btn1" onclick="addUserInfo()">Add Info to Database</button>
+  	    <!-- <button id="btn2" onclick="getAllNames()">View your profile</button> -->
+
+
+
+
+  
+
+  </div>
+
+     <!--  <div class="table" >
+        <table >
+            <thead>
+  	  	  <tr>
+  	  	   <th>Patience ID</th>
+  	  	  	<th>Patience Name</th>
+  	  	  	<th>Date Of Birth</th>
+  	  	  	<th>Hospital Name</th>
+  	  	  	<th>Admitted Date</th>
+  	  	  	<th>Hospital Card Number</th>
+  	  	  	<th>Charge Fee</th>
+  	  	  	<th>Edit File</th>
+  	  	  	<th>Delete File</th>
+  	  	  </tr>
+  	  	  </thead>
+
+  	  	  <tbody id="table">
+             
+  	  	   </tbody>
+  	  	  </table>
+  	  </div> -->
+
+  	  <h4><a href="dataviewPage.html">View Your Profile</a></h4>
+   
+  </div>
+
+   
+
+
+   
+
+   <script src="index.js"></script>
+   <script src="js/jquery.js"></script>
+
+</body>
+</html>
